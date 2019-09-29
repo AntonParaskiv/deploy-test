@@ -13,7 +13,7 @@ func main() {
 }
 
 func baseEndpoint(w http.ResponseWriter, r *http.Request) {
-	response := []byte(`Alright`)
+	response := []byte(`This is test`)
 	w.Write(response)
 	return
 }
