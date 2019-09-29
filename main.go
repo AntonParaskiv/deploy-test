@@ -13,7 +13,7 @@ func main() {
 }
 
 func baseEndpoint(w http.ResponseWriter, r *http.Request) {
-	response := []byte(`This is stage`)
+	response := []byte(`This is master`)
 	w.Write(response)
 	return
 }
