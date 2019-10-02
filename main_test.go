@@ -9,7 +9,7 @@ func Test_printMessage(t *testing.T) {
 	}{
 		{
 			name:        "Success",
-			wantMessage: "This is the new another yet test",
+			wantMessage: Message,
 		},
 	}
 	for _, tt := range tests {
